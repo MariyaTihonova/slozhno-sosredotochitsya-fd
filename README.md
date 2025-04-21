@@ -1,2 +1,2 @@
-https://github.com/MariyaTihonova/slozhno-sosredotochitsya-fd
-https://MariyaTihonova/slozhno-sosredotochitsya-fd/
+Repositorie: https://github.com/MariyaTihonova/slozhno-sosredotochitsya-fd
+GitHub Pages: https://MariyaTihonova/slozhno-sosredotochitsya-fd/
