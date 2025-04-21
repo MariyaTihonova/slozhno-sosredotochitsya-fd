@@ -1,2 +1,2 @@
-Repositorie: https://github.com/MariyaTihonova/slozhno-sosredotochitsya-fd
-GitHub Pages: https://MariyaTihonova/slozhno-sosredotochitsya-fd/
+Проектная работа "Сложно сосредоточиться"
+Ссылка на сайт: https://github.com/MariyaTihonova/slozhno-sosredotochitsya-fd
