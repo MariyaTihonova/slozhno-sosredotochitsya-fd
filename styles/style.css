@@ -2,7 +2,7 @@
 
 .page {
   background-size: auto 768px;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   --transition-duration: 0.25s;
   background: var(--background-image) no-repeat top center,
   var(--background-color);
