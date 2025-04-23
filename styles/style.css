@@ -1,11 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-size: auto 768px;
+  background-size: cover;
   background-attachment: fixed !important;
   --transition-duration: 0.25s;
-  background: var(--background-image) no-repeat top center,
-  var(--background-color);
+  background-image: var(--background-image);
+  background-color: var(--background-color);
   color: var(--main-text-color);
   transition-duration: var(--transition-duration);
 }
