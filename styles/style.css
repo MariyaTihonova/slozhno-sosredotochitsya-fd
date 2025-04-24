@@ -11,7 +11,7 @@
 }
 
 .header {
-  min-block-size: 50vh;
+  min-height: 668px;
   display: grid;
   padding: 20px;
   position: relative;
@@ -148,7 +148,7 @@
 
 @media (width < 1024px) and (width >= 768px) {
   .header__theme-menu {
-    padding-top: 190px;
+    padding-top: 174px;
   }
 }
 
@@ -175,7 +175,7 @@
 
 @media (width < 1024px) and (width >= 768px) {
   .header__title-container {
-    padding: 150px 0 183px;
+    padding: 150px 0 164px;
     gap: 133px;
   }
 }
@@ -452,7 +452,7 @@
 }
 
 .footer {
-  min-block-size: 50vh;
+  min-height: 668px;
   padding: 20px;
   position: relative;
   display: flex;
@@ -489,5 +489,24 @@
   .footer {
     margin-top: 40px;
     padding: 262px 10px;
+  }
+}
+
+/*для светлой темы */
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --title-color: #ffc2e6;
+    --title-shadow: #ff0070;
+    --title-decor: #ff8dcb;
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
+    --background-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+    --article-title-color: var(--main-text-color);
+    --section-title-color: var(--main-text-color);
+    --border-color: var(--title-shadow);
+    --corners-color: var(--main-text-color);
+    --link-shadow: var(--title-color);
+    --rec-color: var(--background-color);
   }
 }
