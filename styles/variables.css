@@ -4,5 +4,27 @@
 */
 
 :root {
-  --font-family: "IBM Plex mono", sans-serif;
-}
+    --accent-color: #ff0070;
+    --button-color: #ff0070;
+    --main-bg-color: #000028;
+    --color-title-decor: #000028;
+    --bg-image: url(../images/cover-image-dark.png);
+    --main-text-color: #f1b2ce;
+    --main-title-color: #ff0070;
+    --main-font-family: 'IBM Plex Mono';
+    --main-font-size: 18px;
+    --decor-padding-mobile: 10px;
+    --decor-padding-desktop: 20px;
+    --logo-color: #db00ff;
+    --hover-color: #ff007066;
+    --font-size-logo-mobile: clamp(
+      7.25rem,
+      7.0115rem + 1.0178vw,
+      7.5rem
+    );
+    --font-size-logo-desktop: clamp(
+      7.5rem,
+      0.5625rem + 14.4531vw,
+      9.8125rem
+    );
+  }
