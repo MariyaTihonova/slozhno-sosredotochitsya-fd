@@ -45,8 +45,6 @@ button,
 a {
   color: currentColor;
   font-family: inherit, sans-serif;
-  font-size: inherit;
-  line-height: inherit;
   text-decoration: none;
   cursor: pointer;
 }
